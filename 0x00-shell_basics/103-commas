@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aFm
+ls -1afm
