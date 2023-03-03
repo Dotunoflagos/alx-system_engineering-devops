@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
+# Remove the leading './' from the script name
+script_name=$(basename "$0")
+
 # Check if an IP address is provided
 if [ -z "$1" ]; then
-  echo "Usage: $0 {IP_ADDRESS}"
+  echo "Usage: $script_name {IP_ADDRESS}"
   exit 1
 fi
 
