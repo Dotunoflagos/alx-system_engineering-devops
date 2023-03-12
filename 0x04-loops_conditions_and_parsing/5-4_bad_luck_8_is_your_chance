@@ -8,6 +8,6 @@ while [ $counter -lt 10 ]; do
 	elif [ $counter -eq 8 ]; then
 		echo "good luck"
 	else
-		echo "Holberton School"
+		echo "Best School"
 	fi
 done
